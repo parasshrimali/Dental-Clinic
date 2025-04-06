@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #f4f7fc;
+	padding-top: 20px;
+}
+
+.card {
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	border: none;
+	overflow: hidden;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.card-header {
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #6C757D;
+	color: white;
+	padding: 15px;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table th, .table td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.table th {
+	background-color: #343a40;
+	color: white;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn {
+	padding: 8px 16px;
+	border: none;
+	background-color: #0072ff;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: #0056b3;
+}
+

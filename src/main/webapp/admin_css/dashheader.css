@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #EFF4F9;
+}
+
+.dashboard-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	z-index: 1050; /* Ensure the header is on top */
+}
+
+.offcanvas {
+	width: 350px !important;
+}
+
+.nav {
+	height: auto;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.nav a:hover {
+	background-color: #495057;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+.nav-link {
+	color: white !important; /* Set default color */
+}
+
+.nav-link:hover {
+	color: lightgray !important; /* Change hover color */
+}
+
+.content {
+	margin-left: 250px;
+	padding: 20px;
+}
+
+.btn-light {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 20px;
+	z-index: 1050;
+}
+
+@media screen and (max-width: 768px) {
+	.nav a {
+		font-size: 1.2rem;
+	}
+}

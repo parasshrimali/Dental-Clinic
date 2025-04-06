@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.card {
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	border: none;
+	overflow: hidden;
+}
+
+.card-header {
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #2B2B2B;
+	color: white;
+}
+
+.form-control {
+	border: 2px solid #e1e1e1;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+	border-color: #0072ff;
+	box-shadow: 0 0 10px rgba(0, 114, 255, 0.5);
+}
+
+textarea {
+	resize: none;
+}
+
+button.btn {
+	transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button.btn:hover {
+	transform: scale(1.05);
+}
+
+.btn-success {
+	background-color: #FFC107;
+	border: none;
+}
+
+.btn-success:hover {
+	background-color: #FFC107;
+}
+
+.btn-secondary {
+	background-color: #DC3545;
+	border: none;
+}
+
+.btn-secondary:hover {
+	background-color: #DC3545;
+}
+
+keyframes fadeIn {from { opacity:0;
+	transform: translateY(-20px);
+}
+
+to {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+}
+.card {
+	animation: fadeIn 0.5s ease-in-out;
+}
+
+@media ( max-width : 1400px) {
+	#delete_btn {
+		margin-top: 5px;
+		margin-left: 7px;
+	}
+}

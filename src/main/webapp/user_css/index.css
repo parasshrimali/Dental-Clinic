@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	animation-delay: 5ms;
+}
+
+.btn-info {
+	transition: background-color 0.3s ease-in-out;
+	/* Smooth color transition */
+}
+
+.btn-info:hover {
+	background-color: #11707F !important; /* Change to your desired color */
+	transform: none !important; /* Prevent size increase */
+}
+
+.btn-danger {
+	transition: background-color 0.3s ease-in-out;
+	/* Smooth color transition */
+}
+
+.btn-danger:hover {
+	background-color: #B02A37 !important; /* Change to your desired color */
+	transform: none !important; /* Prevent size increase */
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.navbar-brand {
+	letter-spacing: 3px;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+#dental p {
+	font-family: sans-serif;
+	line-height: 30px;
+}
+
+#services {
+	background-color: whitesmoke;
+}
+
+#services .card {
+	padding: 20px;
+}
+
+#aligner {
+	width: 25%;
+}
+
+#card-body {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#service_7 {
+	margin-left: 11rem;
+}
+
+#card-service {
+	border-radius: 2rem;
+	max-height: 20rem;
+}
+
+#card-service:hover {
+	-webkit-box-shadow: -4px 7px 8px 2px rgba(230, 228, 221, 1);
+	-moz-box-shadow: -4px 7px 8px 2px rgba(230, 228, 221, 1);
+	box-shadow: -4px 7px 8px 2px rgba(230, 228, 221, 1);
+}
+
+#specialist {
+	width: 55%;
+	height: 18rem;
+}
+
+#card-sp {
+	width: 70%;
+	margin: 1rem auto;
+	border-radius: 2rem;
+	height: 10rem;
+}
+
+#card-sp:hover {
+	-webkit-box-shadow: -4px 7px 8px 2px rgba(230, 228, 221, 1);
+	-moz-box-shadow: -4px 7px 8px 2px rgba(230, 228, 221, 1);
+	box-shadow: -4px 7px 8px 2px rgba(230, 228, 221, 1);
+}
+
+#card-body {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 37.5rem;
+}
+
+#info {
+	margin-top: 100px;
+	font-size: 3px;
+}
+
+.contact-banner {
+	background: linear-gradient(to right, #17A2B8, hwb(188 14% 9%));
+	color: white;
+	padding: 10px 20px 5px 10px;
+	border-radius: 2rem;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.contact-banner img {
+	padding-bottom: 10px;
+	width: 3rem;
+}
+
+#call_rn {
+	margin-top: 35px;
+}
+
+@media ( max-width : 576px) {
+	#call_rn {
+		width: 25rem;
+	}
+}
+
+@media ( max-width : 450px) {
+	#call_rn {
+		width: 18rem;
+	}
+}
+
+/* for 7th service section */
+@media ( max-width : 1199px) {
+	#service_7 {
+		margin-left: 9rem;
+	}
+}
+
+@media ( max-width : 992px) {
+	#service_7 {
+		margin-left: 7rem;
+	}
+}
+
+@media ( max-width : 767px) {
+	#service_7 {
+		margin-left: auto;
+	}
+}
+

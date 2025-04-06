@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+html, body {
+	overflow: -moz-scrollbars-none; /* Firefox */
+	-ms-overflow-style: none; /* IE/Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	animation-delay: 5ms;
+}
+

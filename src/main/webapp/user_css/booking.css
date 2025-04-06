@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f8f9fa;
+	font-family: Arial, sans-serif;
+}
+
+.appointment-section1 {
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 2rem;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	height: 38rem;
+}
+
+.appointment-section1 h2 {
+	color: #343a40;
+}
+
+.appointment-section2 {
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 2rem;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	height: 38rem;
+}
+
+.appointment-section2 h2 {
+	color: #343a40;
+}
+
+.form-control {
+	border-radius: 5px;
+}
+
+.btn {
+	border-radius: 5px;
+}
+
+.status-alert {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.alert-left {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 1rem;
+}
+
+.alert-right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 1rem;
+}
+
+@media ( max-width : 768px) {
+	.alert-left, .alert-right {
+		position: static;
+		margin: 0.5rem 0;
+	}
+	.appointment-section2 {
+		background-color: #ffffff;
+		border-radius: 10px;
+		padding: 2rem;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		height: 50rem;
+	}
+	.appointment-section1 {
+		background-color: #ffffff;
+		border-radius: 10px;
+		padding: 2rem;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		height: 42rem;
+	}
+}

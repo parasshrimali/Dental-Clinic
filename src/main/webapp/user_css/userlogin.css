@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('fonts/Poppins-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url('dental-care-arrangement.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+.login-container {
+	background: rgba(255, 255, 255, 0.2);
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 400px;
+}
+
+h2 {
+	text-align: center;
+	color: #343A40;
+	margin-bottom: 20px;
+}
+
+label {
+	color: #343A40;
+}
+
+.form-control {
+	background: rgba(255, 255, 255, 0.8);
+	border: none;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+	outline: none;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+}
+
+.register-btn {
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+}
+
+.register-btn:hover {
+	background: rgba(255, 255, 255, 0.3);
+	color: white;
+}
+
+.forgot-password {
+	color: #343A40;
+	text-decoration: none;
+}
+
+.forgot-password:hover {
+	text-decoration: underline;
+	color: #1C1C1C;
+}
+
+
